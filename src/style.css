@@ -1,0 +1,68 @@
+body {
+    background-color: #f4ecd8;
+    padding: 7em 2em;
+}
+
+.container {
+    max-width: 50em;
+    margin: 0 auto;
+}
+
+#name {
+    margin: 0 auto;
+    margin-bottom: 1.5em;
+    width: fit-content;
+}
+
+.hr-container {
+    max-width: 40em;
+    margin: 0 auto;
+}
+
+hr {
+    overflow: visible;
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+    margin: 0 -10px;
+}
+
+hr:before {
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+
+    margin: 0 auto;
+    max-width: 50em;
+}
+
+.links a {
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 200px;
+    width: fit-content;
+    height: auto;
+    display: block;
+    margin: 0 10px;
+}
+
+.links a img {
+    width: 60px;
+}
+
+#linkedin {
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+}
